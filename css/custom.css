@@ -1,0 +1,124 @@
+.wrapper{
+	padding: 20px 0px;
+	max-width: 1000px;
+	width: 100%;
+	margin: auto;
+}
+
+.footer-wrapper{
+	padding: 20px 0px;
+	width: 100%;
+	margin: auto;
+	background: #2d2d2d;
+}
+
+.photo-wrapper{
+	width: 100%;
+	margin: auto;
+	background-image: url('../img/Wheat.jpg');
+	background-size: cover;
+}
+
+.photo-wrapper .wrapper{
+	padding-bottom:0px;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+a:hover{
+	color: #b3d88c;
+}
+
+.header-details{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	font-size: 20px;
+	color:#2d2d2d;
+	margin-bottom: 0px;
+}
+
+.header-details a{
+	color:#2d2d2d;
+}
+
+h1.white-bg{
+	background: #fff;
+	padding: 5px 20px;
+	display: inline-block;
+	margin: 0px 0px 10px 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	font-size: 32px;
+	text-transform: uppercase;
+}
+
+h2.green-bg{
+	background: #b3d88c;
+	padding: 5px 20px;
+	display: inline-block;
+	margin: 0px 0px 10px 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+
+h2.grey-bg{
+	background: #2d2d2d;
+	padding: 5px 20px;
+	display: inline-block;
+	margin: 0px 0px 10px 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	font-size: 32px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+h3{
+	margin: 0px 0px 0px 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	font-size: 20px;
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #8a8a8a;
+	font-size: 20px;
+	margin-bottom:0px;
+}
+
+ul.main-bullets{
+	font-size: 20px;
+	color:#fff;
+	font-weight: 700;
+	list-style-image: url('../img/bullet-point.png');
+}
+
+ul.main-bullets li{
+	margin-left:11px;
+	margin-bottom:20px;
+}
+
+ul.main-bullets li:last-child{
+	margin-left:11px;
+	margin-bottom:0px;
+}
+
+img.profile-image{
+	position: relative;
+	margin-top:-70px;
+}
+
+footer p{
+	color:#fff;
+	font-size: 15px;
+}
+
+footer p a{
+	color:#fff;
+}
